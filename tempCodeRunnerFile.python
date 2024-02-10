@@ -1,0 +1,11 @@
+# Import the required packages
+import pyarrow.parquet as pq
+import requests
+import os
+import psutil
+
+# Download the links.parquet file from Google Drive
+# Adapted from https://stackoverflow.com/questions/38511444/python-download-files-from-google-drive-using-url
+def download_file_from_google_drive(id, destination):
+    print('hello world')
+print('Bye Bye')
